@@ -28,8 +28,17 @@ import datetime
 import io
 import json
 import os
+import sys
 import uuid
+from pathlib import Path
 from typing import Any
+
+# Ensure both local repo root and container workdir are in sys.path
+_current_dir = Path(__file__).resolve().parent
+if str(_current_dir) not in sys.path:
+    sys.path.insert(0, str(_current_dir))
+if str(_current_dir.parent) not in sys.path:
+    sys.path.insert(1, str(_current_dir.parent))
 
 import google.auth
 import google.auth.transport.requests

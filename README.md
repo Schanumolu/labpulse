@@ -4,6 +4,13 @@
 
 LabPulse transforms complex, intimidating diagnostic lab reports (PDF, image scans, raw numbers) into clear, empathetic, and actionable medical explanations paired with real-time connected wearable health telemetry.
 
+
+## 🚀 Live Cloud Deployment
+
+- **Cloud Run Web Application**: [https://labpulse-frontend-439352070082.us-east1.run.app](https://labpulse-frontend-439352070082.us-east1.run.app)
+- **Vertex AI Agent Runtime ID**: `projects/439352070082/locations/us-east1/reasoningEngines/6370401046543466496`
+- **A2A Protocol**: Fully compliant Agent-to-Agent standard with streaming and A2UI card rendering.
+
 ---
 
 ## 🌟 Key Features
