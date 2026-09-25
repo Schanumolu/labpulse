@@ -1,0 +1,12 @@
+{
+  "test_id": "lab_20260925_230841_3f418c",
+  "patient_id": "default_patient",
+  "file_name": "lipid_panel.txt",
+  "status": "UPLOADED",
+  "raw_content": "Total Cholesterol: 245 mg/dL, HDL: 38 mg/dL, Triglycerides: 220 mg/dL, LDL: 163 mg/dL",
+  "uploaded_at": "2026-09-25T23:08:41.201934+00:00",
+  "last_updated": "2026-09-25T23:08:41.201934+00:00",
+  "extracted_biomarkers": [],
+  "error_message": null,
+  "gcs_uri": "gs://bwg3-qwiklabs-gcp-03-1a2bb3dfcd68/uploaded_labtests/lab_20260925_230841_3f418c.json"
+}

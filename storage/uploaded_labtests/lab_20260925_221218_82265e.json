@@ -1,0 +1,85 @@
+{
+  "test_id": "lab_20260925_221218_82265e",
+  "patient_id": "patient_alice",
+  "file_name": "alice_lab_sept2026.txt",
+  "status": "COMPLETED",
+  "raw_content": "\nMETABOLIC & LIPID TEST REPORT\nPatient: Alice\nDate: 2026-09-25\n\nFasting Glucose: 118 mg/dL\nHbA1c: 6.7 %\nTotal Cholesterol: 215 mg/dL\nLDL: 138 mg/dL\nHDL: 44 mg/dL\nTriglycerides: 165 mg/dL\n",
+  "uploaded_at": "2026-09-25T22:12:18.862425+00:00",
+  "last_updated": "2026-09-25T22:12:19.225098+00:00",
+  "extracted_biomarkers": [
+    {
+      "id": 1,
+      "biomarker_id": "fasting_glucose",
+      "biomarker_name": "Fasting Blood Glucose",
+      "value": 118.0,
+      "unit": "mg/dL",
+      "test_date": "2026-09-25",
+      "status": "HIGH",
+      "reference_range": "70 - 99 mg/dL",
+      "notes": "Recovered from alice_lab_sept2026.txt",
+      "timestamp": "2026-09-25T22:12:19.224829+00:00"
+    },
+    {
+      "id": 2,
+      "biomarker_id": "hba1c",
+      "biomarker_name": "Hemoglobin A1c (Glycated Hemoglobin)",
+      "value": 6.7,
+      "unit": "%",
+      "test_date": "2026-09-25",
+      "status": "HIGH",
+      "reference_range": "4.0 - 5.6 %",
+      "notes": "Recovered from alice_lab_sept2026.txt",
+      "timestamp": "2026-09-25T22:12:19.224894+00:00"
+    },
+    {
+      "id": 3,
+      "biomarker_id": "total_cholesterol",
+      "biomarker_name": "Total Cholesterol",
+      "value": 215.0,
+      "unit": "mg/dL",
+      "test_date": "2026-09-25",
+      "status": "HIGH",
+      "reference_range": "125 - 199 mg/dL",
+      "notes": "Recovered from alice_lab_sept2026.txt",
+      "timestamp": "2026-09-25T22:12:19.224909+00:00"
+    },
+    {
+      "id": 4,
+      "biomarker_id": "total_cholesterol",
+      "biomarker_name": "Total Cholesterol",
+      "value": 138.0,
+      "unit": "mg/dL",
+      "test_date": "2026-09-25",
+      "status": "NORMAL",
+      "reference_range": "125 - 199 mg/dL",
+      "notes": "Recovered from alice_lab_sept2026.txt",
+      "timestamp": "2026-09-25T22:12:19.224925+00:00"
+    },
+    {
+      "id": 5,
+      "biomarker_id": "total_cholesterol",
+      "biomarker_name": "Total Cholesterol",
+      "value": 44.0,
+      "unit": "mg/dL",
+      "test_date": "2026-09-25",
+      "status": "LOW",
+      "reference_range": "125 - 199 mg/dL",
+      "notes": "Recovered from alice_lab_sept2026.txt",
+      "timestamp": "2026-09-25T22:12:19.224939+00:00"
+    },
+    {
+      "id": 6,
+      "biomarker_id": "triglycerides",
+      "biomarker_name": "Triglycerides",
+      "value": 165.0,
+      "unit": "mg/dL",
+      "test_date": "2026-09-25",
+      "status": "HIGH",
+      "reference_range": "0 - 149 mg/dL",
+      "notes": "Recovered from alice_lab_sept2026.txt",
+      "timestamp": "2026-09-25T22:12:19.224949+00:00"
+    }
+  ],
+  "error_message": null,
+  "gcs_uri": "gs://bwg3-qwiklabs-gcp-03-1a2bb3dfcd68/uploaded_labtests/lab_20260925_221218_82265e.json"
+}

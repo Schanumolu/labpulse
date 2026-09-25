@@ -1,0 +1,12 @@
+{
+  "test_id": "lab_20260925_223259_236a57",
+  "patient_id": "John Doe",
+  "file_name": "lab_report_sept2026.txt",
+  "status": "UPLOADED",
+  "raw_content": "Patient: John Doe, Age: 58, Male\nTest Date: September 2026\n\nLIPID PANEL:\n- Total Cholesterol: 235 mg/dL\n- HDL Cholesterol: 42 mg/dL\n- LDL Cholesterol: 154 mg/dL\n- Triglycerides: 195 mg/dL\n\nGLYCEMIC & METABOLIC:\n- Fasting Glucose: 118 mg/dL\n- Hemoglobin A1c: 6.9%\n- Serum Creatinine: 1.25 mg/dL\n- BUN: 22 mg/dL",
+  "uploaded_at": "2026-09-25T22:32:59.670596+00:00",
+  "last_updated": "2026-09-25T22:32:59.670596+00:00",
+  "extracted_biomarkers": [],
+  "error_message": null,
+  "gcs_uri": "gs://bwg3-qwiklabs-gcp-03-1a2bb3dfcd68/uploaded_labtests/lab_20260925_223259_236a57.json"
+}
